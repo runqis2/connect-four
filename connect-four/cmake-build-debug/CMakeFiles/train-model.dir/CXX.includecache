@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/core/board.h
+string
+-
+vector
+-
+
+../include/core/game.h
+string
+-
+board.h
+../include/core/board.h
+vector
+-
+
+/Users/badguy59/Cinder/my-projects/connect-four/apps/main.cc
+core/board.h
+-
+iostream
+-
+
+/Users/badguy59/Cinder/my-projects/connect-four/src/core/board.cc
+core/board.h
+-
+iostream
+-
+vector
+-
+
+/Users/badguy59/Cinder/my-projects/connect-four/src/core/game.cpp
+core/game.h
+-
+

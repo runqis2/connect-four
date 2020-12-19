@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/train-model.dir/apps/main.cc.o CMakeFiles/train-model.dir/src/core/board.cc.o CMakeFiles/train-model.dir/src/core/game.cpp.o  -o train-model 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/core/board.h
+string
+-
+vector
+-
+
+/Users/badguy59/Cinder/my-projects/connect-four/apps/main.cc
+core/board.h
+-
+iostream
+-
+
